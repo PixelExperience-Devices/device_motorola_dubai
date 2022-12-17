@@ -18,8 +18,7 @@
 TARGET_IS_VAB := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Screen
 TARGET_SCREEN_DENSITY := 400
@@ -37,7 +36,6 @@ $(call inherit-product, device/motorola/sm7325-common/sm7325.mk)
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResDubai \
-    LineageSystemUIDubai \
     SettingsProviderResDubai \
     SystemUIResDubai
 
